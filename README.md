@@ -29,7 +29,7 @@ Please review the following links to see the project results:
 3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 
 # Data Sources
-This project used a CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focused on US Trending channels whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors: 
+This project used a CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors: 
 
 - Video Title
 - Channel Title
@@ -40,6 +40,7 @@ This project used a CSV file and YouTube API to create the datasets regarding tr
 - Description 
 - Comment Count 
 
+The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
 # Data Cleaning and Exploration
 Describe the exploration and cleanup process
