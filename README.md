@@ -50,7 +50,7 @@ Discuss any problems that arose after exploring the data, and how you resolved t
 Present and discuss interesting figures developed during exploration, ideally with the help of Jupyter Notebook
 
 ## Data Analysis 
-# Summary Statistics 
+## Summary Statistics 
 
 - Top five liked videos from August to November 2020
 
