@@ -56,3 +56,12 @@ Present and discuss interesting figures developed during exploration, ideally wi
 # Post - Mortem 
 Discuss any difficulties that arose, and how you dealt with them
 Discuss any additional questions that came up, but which you didn't have time to answer: What would you research next, if you had two more weeks?
+
+
+- Creating a narrative throughout the datasets: Working with such a big dataset in the CSV - difficulty created a project. what did we want to find and pull? how can we connect the csv and youtube api datasets?
+- reading the api was difficult - trying to figure out to call the api without going over the quota limit? too many requests was possible 
+- merging dataframes - finding a commonality 
+- some video ids and channel ids were dropped during the merge 
+- Billy and Des- difficulty creating the appropriate values on the axes on the charts. Billy / Des had to manually input axes limits in order for the charts to be consistent and display the correct values 
+
+
