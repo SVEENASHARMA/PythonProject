@@ -19,8 +19,6 @@
 Please review the following links to review the final data analysis and data exploration/clean-up process:
 
   Jupyter Notebook  - Final Data Analysis
-
-  Jupyter Notebook - Data exploration and cleanup process
   
 # Table of Contents
 
