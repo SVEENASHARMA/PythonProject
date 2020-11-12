@@ -60,12 +60,12 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
 
 # Top Trending Channels from August to October 2020
+![toptrendingchannelsbar](https://user-images.githubusercontent.com/70446836/98895455-26766900-2475-11eb-8875-59b1e790f0ca.PNG)
+ 
+# Relationship between view count and reactions per category 
 ![categoryscatter1](https://user-images.githubusercontent.com/70446836/98895232-a4864000-2474-11eb-98ed-fce942ac0cb6.png)
 
 ![categoryscatter2](https://user-images.githubusercontent.com/70446836/98895240-a6e89a00-2474-11eb-8ce3-2b282819e2bf.png)
- 
-# Relationship between view count and reactions per category 
-
 # Compare the top two categories: Music vs. Entertainment: 
 
 # Most watched videos in 2019 vs. Most watched videos in 2020
