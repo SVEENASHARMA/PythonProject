@@ -62,11 +62,14 @@ This project used a Kaggle CSV file and YouTube API to create the datasets regar
 The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
 # Data Cleaning and Exploration
+**Pandas Process**
 
-Discuss insights you had while exploring the data that you didn't anticipate
-Discuss any problems that arose after exploring the data, and how you resolved them
-Present and discuss interesting figures developed during exploration, ideally with the help of Jupyter Notebook
- 
+**Matplotlib Process**
+Using the previously created PANDAS dataframe we created additional layers to parse specific data per month, this included trending categories and user statistics. We also added supplemental grouby functions to organize this data. Once the data was organized, we were able to create bar and scatter graphs using pyplot. The heatmap was created with a correlation function and seaborn. 
+
+**API Process**
+The dataset includes data gathered from videos on YouTube API that contained highest viewcounts in specific time periods. There are three kinds of data files, the first one includes youtube search items with snippet descriptions, the second includes youtube video statistics, and the third includes youtube channel statistic. They are all linked by the unique video_id and channel_id field. Once we pulled the necessary data, we dropped the duplicate or irrelevant columns and reorganized the created dataframes for readability. We also merged data frames based on the video ID and channel ID fields. This dataset was sorted based on view count, number of likes and dislikes. One issue that arose while exploring the data is that we had to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
+
 # Summary Statistics 
 
 ## Top Five Liked Videos from August to November 2020
@@ -159,7 +162,7 @@ During the strict COVID lockdown from March to June, there were no changes in vi
 
 - Due to the large datasets, with both the CSV and YouTube API, it was difficult to create a narrative for this project. The team had to figure out what data we wanted to pull and how we could connect the CSV and YouTube API datasets to form a bigger picture. We had a few meetings to discuss the overall importance and what the ultimate purpose was with our findings. All in all, it took time to figure out why we wanted this data and how it could prove useful for the YouTube community, whether that be investors or creators themselves. 
 - Another difficulty involved reading the API and performing the API calls itself. It was a challenge to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
-- Finding a commonality between the data frames in order to merge them effectively was another challenge. Some video IDs and channel IDs were actually dropped during the merge due to duplicates and irrelevancy. ASK REDEAT ABOUT THIS!!! 
+- Finding a commonality between the data frames in order to merge them effectively was another challenge. Some video IDs and channel IDs were actually dropped during the merge due to duplicates and irrelevancy. 
 - Lastly, it was difficult to set the appropriate axes' values for our charts. For a few charts, Billy and Desiree had to manually input the limits in order to maintain consistancy and display the correct values. 
 
 **Future Possibilities** 
