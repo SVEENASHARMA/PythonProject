@@ -9,10 +9,10 @@ Team Members: Desiree Herschberger, William Pappas, Thomas Keane, Tas Nahar, Red
   
   HYPOTHESIS: 
 
-  Social events will align with YouTube Trends - quarantine challenges/vlogs, music video releases, new video games etc. 
-  If viewer count increases, reaction will increase as well. 
-  We believe youtube viewing will increase in 2020 due to the pandemic compared to 2019.
-  The lockdown will not affect the viewer trends because categories remain consistant regardless of social circumstances. 
+  - Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
+  - If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
+  - Compared to 2019, YouTube viewing will increase in 2020 due to the pandemic. 
+  - The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
 
   This repository consists of analysis performed on various YouTube datasets and includes observable trends. The data includes the Top US Trending Videos from Kaggle for August to November of 2020. It also includes three datasets from YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. This repository includes trend analysis on user behavior, video statistics, channel statistics, and category statisics from 2019 and 2020. It also provides insights during the strict Covid Lockdown in the US from March to June 2020.  
 
@@ -20,18 +20,16 @@ Please review the following links to see the project results:
 
   Jupyter Notebook  - Final Data Analysis
 
-  Powerpoint Presentation 
-
   Jupyter Notebook - Data exploration and cleanup process
   
 ## Table of Contents
 
-# Questions Addressed
+## Questions Addressed
 1) Why were certain categories trending during specific times?
 2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
 3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 
-# Data Sources
+## Data Sources
 This project used a CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors: 
 
 - Video Title
@@ -45,32 +43,44 @@ This project used a CSV file and YouTube API to create the datasets regarding tr
 
 The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
-# Data Cleaning and Exploration
+## Data Cleaning and Exploration
 Describe the exploration and cleanup process
 Discuss insights you had while exploring the data that you didn't anticipate
 Discuss any problems that arose after exploring the data, and how you resolved them
 Present and discuss interesting figures developed during exploration, ideally with the help of Jupyter Notebook
 
-# Data Analysis 
-## Summary Statistics 
+## Data Analysis 
+# Summary Statistics 
 
-# Findings and Observations 
+- Top five liked videos from August to November 2020
 
-# Post - Mortem 
+- Most published videos per category 
+
+- Least published videos per category
+
+- Top Trending Channels from August to October 2020
+
+- Relationship between view count and reactions per category 
+
+- Compare the top two categories: Music vs. Entertainment: 
+
+- Most watched videos in 2019 vs. Most watched videos in 2020
+
+- The most viewed quarantine challenge videos during strict COVID lockdown 
+
+## Findings and Observations 
+
+## Post - Mortem 
 Discuss any difficulties that arose, and how you dealt with them
 Discuss any additional questions that came up, but which you didn't have time to answer: What would you research next, if you had two more weeks?
 
+- Due to the large datasets, with both the CSV and YouTube API, it was difficult to create a narrative for this project. The team had to figure out what data we wanted to pull and how we could connect the CSV and YouTube API datasets to form a bigger picture. We had a few meetings to discuss the overall importance and what the ultimate purpose was with our findings. All in all, it took time to figure out why we wanted this data and how it could prove useful for the YouTube community, whether that be investors or creators themselves. 
+- Another difficulty involved reading the API and performing the API calls itself. It was a challenge to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
+- Finding a commonality between the data frames in order to merge them effectively was another challenge. Some video IDs and channel IDs were actually dropped during the merge due to duplicates and irrelevancy. ASK REDEAT ABOUT THIS!!! 
+- Lastly, it was difficult to set the appropriate axes' values for our charts. For a few charts, Billy and Desiree had to manually input the limits in order to maintain consistancy and display the correct values. 
 
-- Creating a narrative throughout the datasets: Working with such a big dataset in the CSV - difficulty created a project. what did we want to find and pull? how can we connect the csv and youtube api datasets?
-- reading the api was difficult - trying to figure out to call the api without going over the quota limit? too many requests was possible 
-- merging dataframes - finding a commonality 
-- some video ids and channel ids were dropped during the merge 
-- Billy and Des- difficulty creating the appropriate values on the axes on the charts. Billy / Des had to manually input axes limits in order for the charts to be consistent and display the correct values 
-
-if two more weeks: add revenue - when do channels make the most money. is it based off social circumstance or the content published? how does one youtube creator earn more money compared on another? 
-
-export an entire dataset by day  from the csv to actually compare 2019 vs 2020. not sure how to export so much data by day.
-
-forecasting subscriber count for trending channels - predictions
-
+If we had two more weeks to work on this project, we would have conducted the following analysis:
+- Revenue: At what point do channels earn the most money? Is it based off societal circumstances or the content itself that was published? How does one youtube creator earn more money compared on another popular creator? What are the factors that contribute to these earnings (view count, subscriber count, ad-sense, etc.)
+- We are also interested in learning how to export large datasets from the csv in order to compare daily statistics between 2019 and 2020, but we are not sure how to export such large datasets. 
+- It would  be interested to predict subscriber count for trending channels. Is it possible forecast this number with the provided datasets?
 
