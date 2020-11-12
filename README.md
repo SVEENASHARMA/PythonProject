@@ -60,7 +60,7 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
 
 # Top Trending Channels from August to October 2020
-![toptrendingchannelsbar](https://user-images.githubusercontent.com/70446836/98895455-26766900-2475-11eb-8875-59b1e790f0ca.PNG)
+![toptrendingchannelsbar](https://user-images.githubusercontent.com/70446836/98895742-66d5e700-2475-11eb-80f6-09c7cdb89226.PNG)
  
 # Relationship between view count and reactions per category 
 ![categoryscatter1](https://user-images.githubusercontent.com/70446836/98895232-a4864000-2474-11eb-98ed-fce942ac0cb6.png)
