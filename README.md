@@ -66,6 +66,8 @@ Describe the exploration and cleanup process
 
 **PANDAS**
 
+
+
 1) Read the CSV File
 2) Use the parse function to separate the dates
 3) create dataframe
@@ -88,6 +90,8 @@ Describe the exploration and cleanup process
 **MATPLOTLIB**
 
 **API**
+
+
 
 Discuss insights you had while exploring the data that you didn't anticipate
 Discuss any problems that arose after exploring the data, and how you resolved them
