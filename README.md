@@ -106,7 +106,7 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ![quarantine challenge word cloud](https://user-images.githubusercontent.com/70446836/98896184-60943a80-2476-11eb-97d8-26de7bac7d58.png)
 
 # Findings and Observations 
-## Why were certain categories trending during specific times?
+## Q1) Why were certain categories trending during specific times?
 Hypothesis: Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
   
 Actual Result: 
@@ -118,7 +118,7 @@ According to the top trending channel bar charts, the most popular channels in e
 - October: The Pixel Kingdom, a gaming channel, was the most popular channel as it reviewed the hit game Among Us. 
 - November: JYB Entertainment is the most popular channel in November so far as another K-Pop Group, Twice, released new music. 
 
-## Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
+## Q2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
 Hypothesis: If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
 
 Actual Result: This hypothesis was proven false based on our analysis. According to our scatter plots, as view count increased, there was a decrease in reactions. The overall number of likes, dislikes, and comments gradually declined. 
@@ -129,7 +129,7 @@ The scatter plots also displayed how the number of dislikes and comments remaine
 
 If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. Although, it does suggest that the music category as a stronger % of dislikes and likes when there is a lower view count compared to the entertainment category. 
 
-## Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
+## Q3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 Hypothesis: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
 
 
