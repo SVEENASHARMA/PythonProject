@@ -71,13 +71,14 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ## Findings and Observations 
 
 ## Post - Mortem 
-Discuss any difficulties that arose, and how you dealt with them
-Discuss any additional questions that came up, but which you didn't have time to answer: What would you research next, if you had two more weeks?
+Difficulties: 
 
 - Due to the large datasets, with both the CSV and YouTube API, it was difficult to create a narrative for this project. The team had to figure out what data we wanted to pull and how we could connect the CSV and YouTube API datasets to form a bigger picture. We had a few meetings to discuss the overall importance and what the ultimate purpose was with our findings. All in all, it took time to figure out why we wanted this data and how it could prove useful for the YouTube community, whether that be investors or creators themselves. 
 - Another difficulty involved reading the API and performing the API calls itself. It was a challenge to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
 - Finding a commonality between the data frames in order to merge them effectively was another challenge. Some video IDs and channel IDs were actually dropped during the merge due to duplicates and irrelevancy. ASK REDEAT ABOUT THIS!!! 
 - Lastly, it was difficult to set the appropriate axes' values for our charts. For a few charts, Billy and Desiree had to manually input the limits in order to maintain consistancy and display the correct values. 
+
+Future Possibilities: 
 
 If we had two more weeks to work on this project, we would have conducted the following analysis:
 - Revenue: At what point do channels earn the most money? Is it based off societal circumstances or the content itself that was published? How does one youtube creator earn more money compared on another popular creator? What are the factors that contribute to these earnings (view count, subscriber count, ad-sense, etc.)
