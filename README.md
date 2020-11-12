@@ -48,27 +48,29 @@ Describe the exploration and cleanup process
 Discuss insights you had while exploring the data that you didn't anticipate
 Discuss any problems that arose after exploring the data, and how you resolved them
 Present and discuss interesting figures developed during exploration, ideally with the help of Jupyter Notebook
-
-## Data Analysis 
+ 
 ## Summary Statistics 
 
-- Top five liked videos from August to November 2020
+# Top five liked videos from August to November 2020
 ![top5videos](https://user-images.githubusercontent.com/70446836/98894950-ed89c480-2473-11eb-92b5-f54e4c0913e3.PNG)
 
-- Most published videos per category 
+# Most published videos per category 
 ![mostpublishedcategories](https://user-images.githubusercontent.com/70446836/98894976-fc707700-2473-11eb-9c5f-0d67565e5ff0.png) 
 
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
 
-- Top Trending Channels from August to October 2020
+# Top Trending Channels from August to October 2020
+![categoryscatter1](https://user-images.githubusercontent.com/70446836/98895232-a4864000-2474-11eb-98ed-fce942ac0cb6.png)
 
-- Relationship between view count and reactions per category 
+![categoryscatter2](https://user-images.githubusercontent.com/70446836/98895240-a6e89a00-2474-11eb-8ce3-2b282819e2bf.png)
+ 
+# Relationship between view count and reactions per category 
 
-- Compare the top two categories: Music vs. Entertainment: 
+# Compare the top two categories: Music vs. Entertainment: 
 
-- Most watched videos in 2019 vs. Most watched videos in 2020
+# Most watched videos in 2019 vs. Most watched videos in 2020
 
-- The most viewed quarantine challenge videos during strict COVID lockdown 
+# The most viewed quarantine challenge videos during strict COVID lockdown 
 
 ## Findings and Observations 
 
