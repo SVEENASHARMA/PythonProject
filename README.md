@@ -62,36 +62,6 @@ This project used a Kaggle CSV file and YouTube API to create the datasets regar
 The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
 # Data Cleaning and Exploration
-Describe the exploration and cleanup process
-
-**PANDAS**
-
-
-
-1) Read the CSV File
-2) Use the parse function to separate the dates
-3) create dataframe
-3) drop columns, parse dates, and convert category ID #s to names 
-4) sort the date by the number of likes
-5) reorder the columns for readability
-6) rename the columns 
-
-
-7) pull the categories, number of videos published, number of likes and dislikes, total opinions, and % of likes/dislikes from the dataframe
-8) set categories as the index 
-9)plot a bar graph based on the number of videos in each cateogry 
-
-10)group the data by videos published by date and the trending date; organize the df with a monthly index 
-
-
-11) 
-
-
-**MATPLOTLIB**
-
-**API**
-
-
 
 Discuss insights you had while exploring the data that you didn't anticipate
 Discuss any problems that arose after exploring the data, and how you resolved them
