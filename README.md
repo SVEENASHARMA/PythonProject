@@ -25,8 +25,11 @@ Please review the following links to review the final data analysis and data exp
 # Table of Contents
 
 Questions Addressed
+
 Data Sources
+
 Data Cleaning and Exploration
+
 Summary Statistics
 - Top Five Liked Videos from August to November 2020
 - Most Published Videos per Category from August to November 2020
@@ -36,7 +39,9 @@ Summary Statistics
 - Most Watched Videos in 2019
 - Most Watched Videos in 2020
 - The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown
+
 Findings and Observations 
+
 Post - Mortem 
 
 # Questions Addressed
