@@ -51,10 +51,10 @@ Present and discuss interesting figures developed during exploration, ideally wi
  
 # Summary Statistics 
 
-## Top five liked videos from August to November 2020
+## Top Five Liked Videos from August to November 2020
 ![top5videos](https://user-images.githubusercontent.com/70446836/98894950-ed89c480-2473-11eb-92b5-f54e4c0913e3.PNG)
 
-## Most published videos per category 
+## Most Published Videos per Category 
 ![mostpublishedcategories](https://user-images.githubusercontent.com/70446836/98894976-fc707700-2473-11eb-9c5f-0d67565e5ff0.png) 
 
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
@@ -67,12 +67,23 @@ Present and discuss interesting figures developed during exploration, ideally wi
 
 ![categoryscatter2](https://user-images.githubusercontent.com/70446836/98895240-a6e89a00-2474-11eb-8ce3-2b282819e2bf.png)
 
-## Compare the top two categories: Music vs. Entertainment: 
+## Compare the Top Two Categories: Music vs. Entertainment: 
 ![top2catscatter](https://user-images.githubusercontent.com/70446836/98895858-af8da000-2475-11eb-8ec2-ddb3cc258043.PNG)
 
-## Most watched videos in 2019 vs. Most watched videos in 2020
+## Most Watched Videos in 2019
+![Most watched videos in 2019df](https://user-images.githubusercontent.com/70446836/98896164-570ad280-2476-11eb-9e9a-b8edf93ffab8.png)
 
-## The most viewed quarantine challenge videos during strict COVID lockdown 
+![Most watched videos in 2019 word cloud](https://user-images.githubusercontent.com/70446836/98896165-57a36900-2476-11eb-9b68-66815269db14.png)
+
+## Most Watched Videos in 2020
+![Most watched videos in 2020 df](https://user-images.githubusercontent.com/70446836/98896133-4b1f1080-2476-11eb-8338-072f345f6be5.png)
+
+![Most watched videos in 2020 word cloud](https://user-images.githubusercontent.com/70446836/98896132-4b1f1080-2476-11eb-891d-ee6d1f5c3226.png)
+
+## The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown 
+![quarantine challengebar](https://user-images.githubusercontent.com/70446836/98896182-60943a80-2476-11eb-82f4-c160173e882d.png)
+
+![quarantine challenge word cloud](https://user-images.githubusercontent.com/70446836/98896184-60943a80-2476-11eb-97d8-26de7bac7d58.png)
 
 # Findings and Observations 
 
