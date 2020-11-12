@@ -24,6 +24,21 @@ Please review the following links to review the final data analysis and data exp
   
 # Table of Contents
 
+Questions Addressed
+Data Sources
+Data Cleaning and Exploration
+Summary Statistics
+- Top Five Liked Videos from August to November 2020
+- Most Published Videos per Category from August to November 2020
+- Top Trending Channels from August to October 2020
+- Relationship between View Count and Reactions per Category
+- Comparison Between the Top Two Categories: Music vs. Entertainment
+- Most Watched Videos in 2019
+- Most Watched Videos in 2020
+- The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown
+Findings and Observations 
+Post - Mortem 
+
 # Questions Addressed
 1) Why were certain categories trending during specific times?
 2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
@@ -54,7 +69,7 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ## Top Five Liked Videos from August to November 2020
 ![top5videos](https://user-images.githubusercontent.com/70446836/98894950-ed89c480-2473-11eb-92b5-f54e4c0913e3.PNG)
 
-## Most Published Videos per Category 
+## Most Published Videos per Category from August to November 2020
 ![mostpublishedcategories](https://user-images.githubusercontent.com/70446836/98894976-fc707700-2473-11eb-9c5f-0d67565e5ff0.png) 
 
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
@@ -62,12 +77,12 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ## Top Trending Channels from August to October 2020
 ![toptrendingchannelsbar](https://user-images.githubusercontent.com/70446836/98895742-66d5e700-2475-11eb-80f6-09c7cdb89226.PNG)
  
-## Relationship between view count and reactions per category 
+## Relationship between View Count and Reactions per Category
 ![categoryscatter1](https://user-images.githubusercontent.com/70446836/98895232-a4864000-2474-11eb-98ed-fce942ac0cb6.png)
 
 ![categoryscatter2](https://user-images.githubusercontent.com/70446836/98895240-a6e89a00-2474-11eb-8ce3-2b282819e2bf.png)
 
-## Compare the Top Two Categories: Music vs. Entertainment: 
+## Comparison Between the Top Two Categories: Music vs. Entertainment: 
 ![top2catscatter](https://user-images.githubusercontent.com/70446836/98895858-af8da000-2475-11eb-8ec2-ddb3cc258043.PNG)
 
 ## Most Watched Videos in 2019
