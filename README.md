@@ -69,4 +69,8 @@ Discuss any additional questions that came up, but which you didn't have time to
 
 if two more weeks: add revenue - when do channels make the most money. is it based off social circumstance or the content published? how does one youtube creator earn more money compared on another? 
 
+export an entire dataset by day from the csv to actually compare 2019 vs 2020. not sure how to export so much data by day.
+
+forecasting subscriber count for trending channels - predictions
+
 
