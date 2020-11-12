@@ -53,10 +53,12 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ## Summary Statistics 
 
 - Top five liked videos from August to November 2020
+![top5videos](https://user-images.githubusercontent.com/70446836/98894950-ed89c480-2473-11eb-92b5-f54e4c0913e3.PNG)
 
 - Most published videos per category 
+![mostpublishedcategories](https://user-images.githubusercontent.com/70446836/98894976-fc707700-2473-11eb-9c5f-0d67565e5ff0.png) 
 
-- Least published videos per category
+![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
 
 - Top Trending Channels from August to October 2020
 
