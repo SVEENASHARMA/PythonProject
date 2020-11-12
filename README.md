@@ -106,6 +106,55 @@ Present and discuss interesting figures developed during exploration, ideally wi
 ![quarantine challenge word cloud](https://user-images.githubusercontent.com/70446836/98896184-60943a80-2476-11eb-97d8-26de7bac7d58.png)
 
 # Findings and Observations 
+## Why were certain categories trending during specific times?
+Hypothesis: Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
+  
+Actual Result: 
+YouTube trends aligned with societal events accordingly based on the Top Five Liked Videos dataframe and the most popular categories bar chart. Music was the most popular category during this time and this was reflected as the top five videos were all related to K-Pop music groups, BTS and Blackpink.
+
+According to the top trending channel bar charts, the most popular channels in each month fall into either the music or entertainment categories; these are the top two popular categories overall:
+- August: Big Hit Labels was the most popular channel as BTS dropped music teasers and a video for their song, Dynamite. 
+- September: Blackpink was the most popular channel as Blackpink dropped a song with Selena Gomez called Ice Cream. 
+- October: The Pixel Kingdom, a gaming channel, was the most popular channel as it reviewed the hit game Among Us. 
+- November: JYB Entertainment is the most popular channel in November so far as another K-Pop Group, Twice, released new music. 
+
+## Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
+Hypothesis: If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
+
+Actual Result: This hypothesis was proven false based on our analysis. According to our scatter plots, as view count increased, there was a decrease in reactions. The overall number of likes, dislikes, and comments gradually declined. 
+
+It was also observed that when videos are recently published and have a lower number of views, there is a stronger number of likes compared to dislikes and comments. This suggests that users interact with videos with likes rather than actively leaving comments as it is easier. 
+
+The scatter plots also displayed how the number of dislikes and comments remained consistant for the Entertainment and People & Blogs category. 
+
+If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. Although, it does suggest that the music category as a stronger % of dislikes and likes when there is a lower view count compared to the entertainment category. 
+
+## Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
+Hypothesis: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
+
+
+Actual Result: Based on the various data frames produced, the data suggests that YouTube viewing increased in 2020 compared to 2019. This may be due to the stay-at-home orders issued across the world due to the COVID pandemic.The top five videos pulled from the YouTube API datasets in 2019 and 2020 were all largely international videos:
+
+In 2019, the top five videos:
+1) Telegu News
+2) TV5 News - Telegu News
+3) Video Hub 
+4) Earth Views from Space
+5) Turkish TV video 
+
+In 2020, the top videos:
+1) Republic Bharat - Indian News 
+2) Haberturk TV - Turkish
+3) Russian TV Show
+4) Blackpink - Dance Practice
+5) ABN Telegu News
+
+During the strict COVID lockdown from March to June, there were no changes in viewer trends. Regardless of the pandemic, it seems that users continued to watch their typical videos, ranging from music to fitness, and entertainment. This is displayed from our YouTube API bar chart: 
+1) Diamond Platinumz - Quarantine (Tanzanian Artist)
+2) Chloe Ting - Get Snatched During Quarantine
+3) Quarantine Tik Tok Videos
+4) Hello Neighbors STeals our Quarantine Games
+5) SnowthaProducts (song created by a Mexican/American artist and rapper)
 
 # Post - Mortem 
 ## Difficulties: 
