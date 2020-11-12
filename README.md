@@ -2,14 +2,14 @@
 
 
 # Youtube Trends
-Team Members: Desiree Herschberger, William Pappas, Thomas Keane, Tas Nahar, Redeat Bekele, Sveena Sharma
+**Team Members:** Desiree Herschberger, William Pappas, Thomas Keane, Tas Nahar, Redeat Bekele, Sveena Sharma
 
 # Motivation 
   YouTube is a gigantic video-sharing platform based in San Bruno, California that earned a revenue of $15 billion in 2019. Due to the vast number of published videos, it is difficult to understand which categories, channels, or videos themselves are the most popular over time. It would seem reasonable that stakeholders in YouTube would like to understand what is trending and how their users interact with these videos. Is there a connection between the number of views, likes, dislikes, and comments on a given video? Is there a reason that certain video categories perform signifcantly better than other categories? Is it possible to predict user behavior over time? If these factors are known, it would be benefical for not only the executives/stakeholders, but the creators themselves to be able to predict success or failure.
   
   This repository consists of analysis performed on various YouTube datasets and includes observable trends. The data includes the Top US Trending Videos from Kaggle for August to November of 2020. It also includes three datasets from YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. This repository includes trend analysis on user behavior, video statistics, channel statistics, and category statisics from 2019 and 2020. It also provides insights during the strict Covid Lockdown in the US from March to June 2020.  
 
-  HYPOTHESES: 
+  Hypotheses: 
 
   - Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
   - If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
@@ -50,7 +50,7 @@ Post - Mortem
 3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 
 # Data Sources
-This project used a CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors: 
+This project used a Kaggle CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors: 
 
 - Video Title
 - Channel Title
@@ -107,9 +107,9 @@ Present and discuss interesting figures developed during exploration, ideally wi
 
 # Findings and Observations 
 ## Q1) Why were certain categories trending during specific times?
-Hypothesis: Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
+**Hypothesis**: Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
   
-Actual Result: 
+**Actual Result**: 
 YouTube trends aligned with societal events accordingly based on the Top Five Liked Videos dataframe and the most popular categories bar chart. Music was the most popular category during this time and this was reflected as the top five videos were all related to K-Pop music groups, BTS and Blackpink.
 
 According to the top trending channel bar charts, the most popular channels in each month fall into either the music or entertainment categories; these are the top two popular categories overall:
@@ -119,9 +119,9 @@ According to the top trending channel bar charts, the most popular channels in e
 - November: JYB Entertainment is the most popular channel in November so far as another K-Pop Group, Twice, released new music. 
 
 ## Q2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
-Hypothesis: If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
+**Hypothesis**: If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
 
-Actual Result: This hypothesis was proven false based on our analysis. According to our scatter plots, as view count increased, there was a decrease in reactions. The overall number of likes, dislikes, and comments gradually declined. 
+**Actual Result**: This hypothesis was proven false based on our analysis. According to our scatter plots, as view count increased, there was a decrease in reactions. The overall number of likes, dislikes, and comments gradually declined. 
 
 It was also observed that when videos are recently published and have a lower number of views, there is a stronger number of likes compared to dislikes and comments. This suggests that users interact with videos with likes rather than actively leaving comments as it is easier. 
 
@@ -130,10 +130,10 @@ The scatter plots also displayed how the number of dislikes and comments remaine
 If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. Although, it does suggest that the music category as a stronger % of dislikes and likes when there is a lower view count compared to the entertainment category. 
 
 ## Q3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
-Hypothesis: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
+**Hypothesis**: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
 
 
-Actual Result: Based on the various data frames produced, the data suggests that YouTube viewing increased in 2020 compared to 2019. This may be due to the stay-at-home orders issued across the world due to the COVID pandemic.The top five videos pulled from the YouTube API datasets in 2019 and 2020 were all largely international videos:
+**Actual Result**: Based on the various data frames produced, the data suggests that YouTube viewing increased in 2020 compared to 2019. This may be due to the stay-at-home orders issued across the world due to the COVID pandemic.The top five videos pulled from the YouTube API datasets in 2019 and 2020 were all largely international videos:
 
 In 2019, the top five videos:
 1) Telegu News
@@ -157,14 +157,14 @@ During the strict COVID lockdown from March to June, there were no changes in vi
 5) SnowthaProducts- Nowhere to Go (Quarantine Love) (song created by a Mexican/American artist and rapper)
 
 # Post - Mortem 
-## Difficulties: 
+**Difficulties** 
 
 - Due to the large datasets, with both the CSV and YouTube API, it was difficult to create a narrative for this project. The team had to figure out what data we wanted to pull and how we could connect the CSV and YouTube API datasets to form a bigger picture. We had a few meetings to discuss the overall importance and what the ultimate purpose was with our findings. All in all, it took time to figure out why we wanted this data and how it could prove useful for the YouTube community, whether that be investors or creators themselves. 
 - Another difficulty involved reading the API and performing the API calls itself. It was a challenge to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
 - Finding a commonality between the data frames in order to merge them effectively was another challenge. Some video IDs and channel IDs were actually dropped during the merge due to duplicates and irrelevancy. ASK REDEAT ABOUT THIS!!! 
 - Lastly, it was difficult to set the appropriate axes' values for our charts. For a few charts, Billy and Desiree had to manually input the limits in order to maintain consistancy and display the correct values. 
 
-## Future Possibilities: 
+**Future Possibilities** 
 
 If we had two more weeks to work on this project, we would have conducted the following analysis:
 - Revenue: At what point do channels earn the most money? Is it based off societal circumstances or the content itself that was published? How does one youtube creator earn more money compared on another popular creator? What are the factors that contribute to these earnings (view count, subscriber count, ad-sense, etc.)
