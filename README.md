@@ -18,7 +18,7 @@
 
 Please review the following links to review the final data analysis and data exploration/clean-up process:
 
-  Jupyter Notebook  - Final Data Analysis
+[Jupiter Notebook Data Analysis](https://github.com/redeat17/Project-1/blob/master/YouTube_Data_CombinedCode.ipynb)
   
 # Table of Contents
 
