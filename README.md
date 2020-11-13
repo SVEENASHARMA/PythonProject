@@ -150,13 +150,9 @@ According to the top trending channel bar charts, the most popular channels in e
 ## Q2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
 **Hypothesis**: If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
 
-**Actual Result**: This hypothesis was proven false based on our analysis. According to our scatter plots, as view count increased, there was a decrease in reactions. The overall number of likes, dislikes, and comments gradually declined. 
+**Actual Result**: This hypothesis was proven to be relative depending on the category itself. The scatters show us in general that the number of likes increase relative to views whereas other reactions stay consistently lower by comparison, with the exception of music and news and politics categories. The dots we are seeing are reactions to videos based on number of  views they recieved. 
 
-It was also observed that when videos are recently published and have a lower number of views, there is a stronger number of likes compared to dislikes and comments. This suggests that users interact with videos with likes rather than actively leaving comments as it is easier. 
-
-The scatter plots also displayed how the number of dislikes and comments remained consistant for the Entertainment and People & Blogs category. 
-
-If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. Although, it does suggest that the music category as a stronger % of dislikes and likes when there is a lower view count compared to the entertainment category. 
+If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. 
 
 ## Q3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 **Hypothesis**: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
