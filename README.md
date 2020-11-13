@@ -65,15 +65,7 @@ The youtube API consists of three datasets: YouTube API: YouTube Search Items, Y
 # Data Cleaning and Exploration
 **Pandas Process**
 
-1.    Parse youtube date format into datetime format
-2.    Calculate lag time for each video to trend
-3.    Replace category ID integers with category names based on youtube category dictionary
-4.    Sort by ‘like’, most to least
-5.    Drop duplicates
-6.    Groupby date, calculate number of trending videos published
-7.    Groupby category calculate number, like %, dislike %
-8.    Groupby month, see if there are trending difference month-to-month (there are not)
-9.    Analyze the lag time for a video to trend
+With Pandas, we read the CSV file and parsed the YouTube date format into a datetime format. We calculated the lag time for each video to trend and replaced the category ID numbers with category names for readability. Afterwards, we sorted the dataframe by the number of likes and dropped any duplicate columns. We also used the groupby function in various cells for the date, number of published trending videos, categories, and months.
 
 **Matplotlib Process**
 Using the previously created PANDAS dataframe we created additional layers to parse specific data per month, this included trending categories and user statistics. We also added supplemental grouby functions to organize this data. Once the data was organized, we were able to create bar and scatter graphs using pyplot. The heatmap was created with a correlation function and seaborn. 
