@@ -13,8 +13,7 @@
 
   - Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.) 
   - If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments. 
-  - Compared to 2019, YouTube viewing will increase in 2020 due to the pandemic. 
-  - The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances. 
+  - Compared to 2019, YouTube viewer habits will differ in 2020 due to the pandemic.However, the lockdown will not affect the viewer trends themselves asthey will remain     consistant regardless social circumstances. 
 
 Please review the following links to review the final data analysis and data exploration/clean-up process:
 
