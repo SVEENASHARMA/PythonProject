@@ -132,7 +132,7 @@ The 2019 and 2020 word clouds contain key words from the most watched videos bas
 
 ![quarantine challenge word cloud](https://user-images.githubusercontent.com/70446836/98896184-60943a80-2476-11eb-97d8-26de7bac7d58.png)
 
-The horizontal bar graph depict the most viewed quarantine challenge videos created during lockdown. This data was pulled from the YouTube Search API dataset and the word clouyd was generated from the comments.  
+The horizontal bar graph depict the most viewed quarantine challenge videos created during lockdown. This data was pulled from the YouTube Search API dataset and the word cloud was generated from the comments.  
 
 # Findings and Observations 
 ## Q1) Why were certain categories trending during specific times?
