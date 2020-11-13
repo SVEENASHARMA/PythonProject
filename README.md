@@ -83,8 +83,6 @@ Discuss any problems that arose after exploring the data, and how you resolved t
 1.    Youtube timestamps its videos in a non-standard format. We had to text parse the date format and convert the dates and times to the Python datetime format. We wrote a function to do this.
 2.    Youtube uses integers instead of strings for its video categories. We had to download a category dictionary (which can change with time), and convert the category numbers to category names using the ‘replace’ function.
 3.    Channel owners will often publish multiple copies of the same video using the same title, on different dates. These videos post as ‘unique’ videos with unique statistics. Ideally we would roll up statistics for duplicate videos into a single data point for our analysis. However, when we actually viewed videos with the same title from the same channel, we found that some videos would have subtle differences (for example, one video may have text pop-ups, and another not). We couldn’t figure out, short of watching ‘duplicate’ video with human eyes, if the videos were actually different and therefore shouldn’t be rolled up. So instead, we kept the ‘most popular’ instance of the duplicately-titled videos. Interestingly, the 2nd most popular instance of duplicately-titled videos typically had views that were orders of magnitude lower than the most popular video. So we feel our analysis still allows for significant inferences about the videos.
-Present and discuss interesting figure developed during exploration, ideally with the help of Jupyter Notebook.
-
 
 # Summary Statistics 
 
