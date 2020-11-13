@@ -154,7 +154,7 @@ During the strict COVID lockdown from March to June, there were no changes in vi
 1) Diamond Platinumz - Quarantine (Tanzanian Artist)
 2) Chloe Ting - Get Snatched During Quarantine
 3) Quarantine Tik Tok Videos
-4) Hello Neighbors STeals our Quarantine Games
+4) Hello Neighbors Steals our Quarantine Games
 5) SnowthaProducts- Nowhere to Go (Quarantine Love) (song created by a Mexican/American artist and rapper)
 
 # Post - Mortem 
@@ -171,4 +171,4 @@ If we had two more weeks to work on this project, we would have conducted the fo
 - Revenue: At what point do channels earn the most money? Is it based off societal circumstances or the content itself that was published? How does one youtube creator earn more money compared on another popular creator? What are the factors that contribute to these earnings (view count, subscriber count, ad-sense, etc.)
 - We are also interested in learning how to export large datasets from the csv in order to compare daily statistics between 2019 and 2020, but we are not sure how to export such large datasets. 
 - It would  be interested to predict subscriber count for trending channels. Is it possible forecast this number with the provided datasets?
-
+- Comparsion between negative and positive comments. Which categories receive the largest negative reactions based on the comments. Is it possible to track the negative and positive comments in a effective way? Possibly use a word count for a comment section in the most popular/least popular videos in a given category. 
