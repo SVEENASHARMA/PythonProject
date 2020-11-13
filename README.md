@@ -68,9 +68,11 @@ The youtube API consists of three datasets: YouTube API: YouTube Search Items, Y
 With Pandas, we read the CSV file and parsed the YouTube date format into a datetime format. We calculated the lag time for each video to trend and replaced the category ID numbers with category names for readability. Afterwards, we sorted the dataframe by the number of likes and dropped any duplicate columns. We also used the groupby function in various cells for the date, number of published trending videos, categories, and months.
 
 **Matplotlib Process**
+
 Using the previously created PANDAS dataframe we created additional layers to parse specific data per month, this included trending categories and user statistics. We also added supplemental grouby functions to organize this data. Once the data was organized, we were able to create bar and scatter graphs using pyplot. The heatmap was created with a correlation function and seaborn. 
 
 **API Process**
+
 The dataset includes data gathered from videos on YouTube API that contained highest viewcounts in specific time periods. There are three kinds of data files, the first one includes youtube search items with snippet descriptions, the second includes youtube video statistics, and the third includes youtube channel statistic. They are all linked by the unique video_id and channel_id field. Once we pulled the necessary data, we dropped the duplicate or irrelevant columns and reorganized the created dataframes for readability. We also merged data frames based on the video ID and channel ID fields. This dataset was sorted based on view count, number of likes and dislikes. One issue that arose while exploring the data is that we had to repeatedly call the API without going over the quota. There are only so many requests we could do and we had to implement another method that allowed us to continue our analysis without overextending our API limit. 
 
 **Insights we had while exploring data that we didn’t anticipate:**
@@ -89,21 +91,31 @@ Present and discuss interesting figure developed during exploration, ideally wit
 ## Top Five Liked Videos from August to November 2020
 ![top5videos](https://user-images.githubusercontent.com/70446836/98894950-ed89c480-2473-11eb-92b5-f54e4c0913e3.PNG)
 
+The top five liked videos during this timeframe all fall in the music category; K-Pop groups seem to dominate this category. 
+
 ## Most Published Videos per Category from August to November 2020
 ![mostpublishedcategories](https://user-images.githubusercontent.com/70446836/98894976-fc707700-2473-11eb-9c5f-0d67565e5ff0.png) 
 
 ![mostpublishedcategoriesbar](https://user-images.githubusercontent.com/70446836/98895009-10b47400-2474-11eb-99ed-5c4aa2cff82c.PNG)
 
+Music and entertainment publish the highest number of videos; surprisingly, Nonprofits and Activism had the least number of published videos with only five videos. 
+
 ## Top Trending Channels from August to October 2020
 ![toptrendingchannelsbar](https://user-images.githubusercontent.com/70446836/98895742-66d5e700-2475-11eb-80f6-09c7cdb89226.PNG)
+
+According to the top trending channel bar charts, the most popular channels in each month fall into either the music or entertainment categories. October is the exception as a gaming channel was the most popular as it reviewed the game Among Us. 
  
 ## Relationship between View Count and Reactions per Category
 ![categoryscatter1](https://user-images.githubusercontent.com/70446836/98895232-a4864000-2474-11eb-98ed-fce942ac0cb6.png)
 
 ![categoryscatter2](https://user-images.githubusercontent.com/70446836/98895240-a6e89a00-2474-11eb-8ce3-2b282819e2bf.png)
 
+These scatter plots display the relationship between view count and reactions per category. Reactions consist of the number of likes, number of dislikes, and number of comments. 
+
 ## Comparison Between the Top Two Categories: Music vs. Entertainment: 
 ![top2catscatter](https://user-images.githubusercontent.com/70446836/98895858-af8da000-2475-11eb-8ec2-ddb3cc258043.PNG)
+
+Music and entertainment are the top two popular categories and have very similar reactions in regards to the number of likes and dislikes.
 
 ## Most Watched Videos in 2019
 ![Most watched videos in 2019df](https://user-images.githubusercontent.com/70446836/98896164-570ad280-2476-11eb-9e9a-b8edf93ffab8.png)
@@ -115,10 +127,14 @@ Present and discuss interesting figure developed during exploration, ideally wit
 
 ![Most watched videos in 2020 word cloud](https://user-images.githubusercontent.com/70446836/98896132-4b1f1080-2476-11eb-891d-ee6d1f5c3226.png)
 
+The 2019 and 2020 word clouds contain key words from the most watched videos based on the comments. The most common words appear larger in the cloud.   
+
 ## The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown 
 ![quarantine challengebar](https://user-images.githubusercontent.com/70446836/98896182-60943a80-2476-11eb-82f4-c160173e882d.png)
 
 ![quarantine challenge word cloud](https://user-images.githubusercontent.com/70446836/98896184-60943a80-2476-11eb-97d8-26de7bac7d58.png)
+
+The horizontal bar graph depict the most viewed quarantine challenge videos created during lockdown. This data was pulled from the YouTube Search API dataset and the word clouyd was generated from the comments.  
 
 # Findings and Observations 
 ## Q1) Why were certain categories trending during specific times?
