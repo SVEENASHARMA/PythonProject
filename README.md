@@ -60,7 +60,7 @@ This project used a Kaggle CSV file and YouTube API to create the datasets regar
 - Description 
 - Comment Count 
 
-The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
+The following three datasets were pulled from the YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
 # Data Cleaning and Exploration
 **Pandas Process**
