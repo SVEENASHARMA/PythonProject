@@ -22,25 +22,24 @@ Please review the following links to review the final data analysis and data exp
   
 # Table of Contents
 
-[Questions Addressed](-#-questions-addressed)
+[Questions Addressed](https://github.com/SVEENASHARMA/PythonProject#questions-addressed)
 
-Data Sources
+[Data Sources](https://github.com/SVEENASHARMA/PythonProject#data-sources)
 
-Data Cleaning and Exploration
+[Data Cleaning and Exploration](https://github.com/SVEENASHARMA/PythonProject#data-cleaning-and-exploration)
 
-Summary Statistics
-- Top Five Liked Videos from August to November 2020
-- Most Published Videos per Category from August to November 2020
-- Top Trending Channels from August to October 2020
-- Relationship between View Count and Reactions per Category
-- Comparison Between the Top Two Categories: Music vs. Entertainment
-- Most Watched Videos in 2019
-- Most Watched Videos in 2020
-- The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown
+[Summary Statistics](https://github.com/SVEENASHARMA/PythonProject#summary-statistics)
 
-Findings and Observations 
-
-Post - Mortem 
+[Top Five Liked Videos from August to November 2020](https://github.com/SVEENASHARMA/PythonProject#top-five-liked-videos-from-august-to-november-2020)
+[Most Published Videos per Category from August to November 2020](https://github.com/SVEENASHARMA/PythonProject#most-published-videos-per-category-from-august-to-november-2020)
+[Top Trending Channels from August to October 2020](https://github.com/SVEENASHARMA/PythonProject#top-trending-channels-from-august-to-october-2020)
+[Relationship between View Count and Reactions per Category](https://github.com/SVEENASHARMA/PythonProject#relationship-between-view-count-and-reactions-per-category)
+[Comparison Between the Top Two Categories: Music vs. Entertainment](https://github.com/SVEENASHARMA/PythonProject#comparison-between-the-top-two-categories-music-vs-entertainment)
+[Most Watched Videos in 2019](https://github.com/SVEENASHARMA/PythonProject#most-watched-videos-in-2019)
+[Most Watched Videos in 2020](https://github.com/SVEENASHARMA/PythonProject#most-watched-videos-in-2020)
+[The Most Viewed Quarantine Challenge Videos During Strict COVID Lockdown](https://github.com/SVEENASHARMA/PythonProject#the-most-viewed-quarantine-challenge-videos-during-strict-covid-lockdown)
+[Findings and Observations](https://github.com/SVEENASHARMA/PythonProject#findings-and-observations)
+[Post - Mortem](https://github.com/SVEENASHARMA/PythonProject#post---mortem)
 
 # Questions Addressed
 1) Why were certain categories trending during specific times?
